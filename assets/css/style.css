@@ -1,0 +1,227 @@
+body{
+    background-attachment: scroll;
+    background-repeat: repeat;
+    background-image: url(../Images/fresh_snow_@2X.png);
+    font-family: 'Playfair Display', serif;
+    line-height: 24px;
+}
+
+.topnav{
+    background-color: white;
+    width:100%;
+    position: absolute;
+    top: 0;
+   
+}
+
+h1{
+    margin: 0;
+}
+
+.header{
+    text-align: center;
+    width: 200px;
+    height: 80px;
+    background:#cc92a8;
+    color: white;
+    font-size: 20px;
+    line-height: 1;
+    font-family:'Playfair Display', serif;
+    position: relative;
+    left: 142px;  
+    padding: 10px; 
+   
+}
+
+.nav{
+    position: absolute;
+    right: -750px;
+    top: 0;
+    background-color: white;
+    border-bottom-color: #cc92a8;
+    color: #cc92a8;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    float: right;
+    padding: 8px;
+    margin: 0;
+}
+a{
+    color:#cc92a8;
+    text-decoration: none;
+}
+
+a :hover{
+    color:#35274b;
+    font-weight: bold;
+
+}
+
+h2{
+    color:#cc92a8;
+    font-size: 24 px;
+}
+
+img{
+    float: left;
+    margin-right: 30px;
+}
+
+.subheading{
+    border-bottom-style: solid;
+    border-bottom-color: lightgrey;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    margin-top:50px;
+    position: relative;
+    
+}
+
+input{
+    width: 500px;
+}
+
+textarea{
+    width: 500px;
+    height: 300px;
+}
+
+button{
+    background-color: #cc92a8;
+    color: lightgray;
+}
+
+
+
+
+.footer{
+    text-align: center;
+    background-color: #cc92a8;
+    border-top: solid;
+    border-color: #cc92a8;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+.container{
+    font-family: 'Playfair Display', serif;
+    color: grey;
+    background-color: white;
+    padding-left: 35px;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 100px;
+    padding-top: 10px;
+    width: 960px;
+    height: 960px;   
+}
+
+
+* {
+    box-sizing: border-box;
+      }
+
+.boxes{
+    position: relative;
+    padding: 25px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    float: left;  
+}
+
+.box1{
+    border: solid;
+    border-color: lightgray;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+.box2{
+    border: solid;
+    border-color: lightgray;
+    width: 200px;
+    height: 200px;
+}
+
+.box3{
+    clear: both;
+    border: solid;
+    border-color: lightgray;
+    width: 200px;
+    height: 200px;
+}
+
+.box4{
+    border: solid;
+    border-color: lightgray;
+    width: 200px;
+    height: 200px;
+}
+
+.box5{
+    clear: both;
+    border: solid;
+    border-color: lightgray;
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 980px) {
+body{
+    width: 100%;
+}
+}
+@media screen and (max-width: 768px) {
+    .nav{
+        width: 100%;
+}
+.topnav{
+    width: 100%;
+}
+    body{
+        width: 100%;
+}
+.textarea{
+    width: 100%;
+
+}
+.container{
+    width: 100%;
+}
+}
+
+@media screen and (max-width: 640px) {
+.header{
+    padding: 25px;
+    width:100%;
+    position: static;
+}
+.nav{
+    width: 100%;
+    position: sticky;
+    
+}
+body{
+        width: 100%;
+}
+.input{
+    width: 100px;
+}
+.textarea{
+    width: 100%;
+
+}
+.container{
+        width: 100%;
+        padding: 20px;
+}
+}
