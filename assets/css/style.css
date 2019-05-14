@@ -120,7 +120,7 @@ h3 {
   }
   .box {
     position: relative;
-    float: left;
+    /* float: left; */
     width: 274px;
     margin: 20px 0 25px;
     overflow: auto;
@@ -153,6 +153,11 @@ h3 {
   #contact-form li {
     margin-bottom: 10px;
   }
+
+.contact{
+  width: 250px;
+  height: 100px;
+}
   
   label,
   input[type=text],

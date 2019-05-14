@@ -1,58 +1,79 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <head>
-        <title>About Me</title>
-        <link rel="stylesheet" type= "text/css" href="./assets/css/reset.css">
-        <link href="./assets/css/style.css" rel= "stylesheet" type= "text/css">
-        <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
 
-    <body>    
+<head>
+    <title>About Me</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link href="./assets/css/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous">
 
-            <header id="masthead">
-                <div class="container">     
-                    <a href= "index.html" id= "logo">Monica Mantilla</a>
-                                 
-                            <nav>
-                                <a href="index.html">About</a>
-                                <a href="contact.html">Contact</a>
-                                <a href="portfolio.html">Portfolio</a>
-                            </nav>           
-                </div> 
-            </header>  
-            
-    <div id= "main-container" class="container">  
-            <section class="main-container">
-                <h1>Contact</h1>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
 
-                <form id="contact-form">
+<body>
+
+    <header id="masthead">
+        <div class="container">
+            <a href="index.html" id="logo">Monica Mantilla</a>
+
+            <nav>
+                <a href="index.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="portfolio.html">Portfolio</a>
+            </nav>
+        </div>
+    </header>
+
+    <div id="main-container" class="container">
+        <section class="main-container">
+            <h1>Contact</h1>
+
+            <div id="row">
+            <div id="contactInfo">
+
+                <a href="https://github.com/monicamantilla">
+                    <img class="contact" src="./assets/Images/GitHub-Mark.png" alt="Github">
+                </a>
+
+
+                <a href="www.linkedin.com/in/monicamantilla">
+                    <img class="contact" src="./assets/Images/Linkedin.png" alt="Resume">
+                </a>
+
+                <a href="./assets/MantillaCoding.pdf">
+                    <img class="contact" src="./assets/Images/Resume-logo-LEG.png" alt="LinkedIn">
+                </a>
+            </div>
+        </div>
+
+            <form id="contact-form">
                 <ul>
                     <li>
-                      <label for="name">Name</label>
-                      <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="John Smith" required="required">
                     </li>
                     <li>
-                      <label for="email">Email</label>
-                      <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
                     </li>
                     <li>
-                      <label for="message">Message</label>
-                      <textarea id="message" name="message" required="required"></textarea>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required="required"></textarea>
                     </li>
                 </ul>
-                  <input type="submit" name="submit">
-                </form>
+                <input type="submit" name="submit">
             </form>
-              </section>
-            
-    </div>
-        
-        <footer>
-                <div class= "container">
-                        Copyright &copy;
-                </div>
-            </footer>    
-</body>  
 
-</html>  
+
+    </div>
+
+    <footer>
+        <div class="container">
+            Copyright &copy;
+        </div>
+    </footer>
+</body>
+
+</html>
